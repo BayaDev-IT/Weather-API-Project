@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Weather/API map 2ГИС</title> 
+    <link rel="stylesheet" href="./css/null.css">
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+</head> 
+
+<body> 
+    <!-- form for Werather -->
+    <div class="wrapper">
+        <header class="header">
+            <h1>Look Weather in Your Country</h1>
+            <form> 
+                <input type="search" placeholder="City name" id="inp"> 
+                <button class="btn">Search</button> 
+            </form> 
+        </header>
+        <main class="main">
+            <div class="output">
+            </div> 
+        </main>
+    
+        <footer class="footer">
+            Weather Application With API
+        </footer>
+    </div>
+    <script src="./script/script.js"></script> 
+</body> 
+
+</html>
